@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+/*
+
+
+   Bootstrap B&B
+   Author: Josh Welborn
+   Date:   07/24/2021
+   Filename: styles.css
+
+*/
+body {
+  background-image: url(background.png);
+    margin: auto;
+    background-size: cover;
+}
+.information h1{
+  font-family: 'Rock Salt', cursive;
+}
+.information ul {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navigation {
+  font-family: 'Rock Salt', cursive;
+
+}
+.nav-item {
+  margin: 30px;
+  font-size: 20px;
+  color: black;
+
+}
+.nav-item a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+.header {
+  text-align: center;
+  width: 85%;
+
+}
+.header h1 {
+  font-family: 'Rock Salt', cursive;
+  padding-top: 20px;
+  padding-bottom: 12px;
+
+
+}
+
+.carousel {
+  width: 85%;
+  margin: auto;
+  box-shadow: 10px 10px 10px 6px black;
+}
+.cards{
+  width: 85%;
+  margin: auto;
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 15px;
+
+}
+.card {
+    box-shadow: 10px 10px 10px 6px black;
+}
+
+.rooms{
+  margin: auto;
+  padding-top: 15px;
+  width: 85%;
+  font-size: 18px;
+}
+.rooms h3 {
+  font-family: 'Rock Salt', cursive;
+}
+.boxes{
+  width: 85%;
+  margin: auto;
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 15px;
+}
+footer {
+  text-align: center;
+  background-color: #04AA6D;
+  color: black;
+  margin: auto;
+  width: 85%;
+  padding: 20px;
+}
+/* Set the size of the div element that contains the map */
